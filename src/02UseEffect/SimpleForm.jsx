@@ -17,11 +17,11 @@ export const SimpleForm = () => {
     }
 
     useEffect(() => {
-
+        //Código a ejecutar
         return () => {
-            
+            //retorno de la función
         };
-    }, [ formState ]);
+    }, [ formState ]);//Elementos a observar
 
 
 
